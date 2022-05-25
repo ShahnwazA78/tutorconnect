@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home|Page</title>
+    <link rel="icon" href="Logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Tactile&family=Trispace:wght@100&display=swap"
+        rel="stylesheet">
+</head>
+<link rel="stylesheet" href="home.css">
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="homepage.html"><img src="Logo.png" alt="tutorconnect"></a>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li class="items"><a href="homepage.html">Home</a></li>
+                <li class="items"><a href="About.html">About</a></li>
+                <li class="items"><a href="search.html" target="blank">Search for Tutor & Institution</a></li>
+                <li class="items"><a href="contact.html">Contact Us</a></li>
+                <li class="items"><a href="regLog.html">Login</a></li>
+                <li class="items"><input type="text" class="search" placeholder="Search here"></li>
+                <li class="button"><button><a class="btn" href="homepage.html">GO</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h3>Welcome To The TutorConnect</h3>
+        <p class="span">HERE WE ARE CONNECTING TUTORS AND INSTITUTION IDEALLY</p>
+        <p>Tutor connect is an user friendly website for communication between tutors and students. Unlike the
+            available products catering to Edutech sector in the market, tutor connect works in parallel to promote the
+            institution as well as cater to the needs of Tutor's to communicate with students. The unique threefold way
+            in
+            which Tutor connect caters to multiple needs makes the product undeniably the best available in the market..
+        </p>
+        <hr class="new4">
+    </section>
+    <form action="backend.js">
+        <span
+            style="text-decoration: underline;font-size: 20px;color: rgb(54 54 107);font-weight: bolder; font-family: 'Oswald', sans-serif; ">Application
+            Form:</span> <br><br>
+        <div class="items">Tutor Name: <input type="text" placeholder="Enter Full name"></div>
+        <div class="gender">Gender:
+            Male<input type="radio" name="myGender">
+            Female<input type="radio" name="myGender">
+            Other<input type="radio" name="myGender"></div>
+        </div>
+        <div class="items"> Date of Birth: <input type="date" name="DOB" id=""></div>
+        <div class="sub">Interested Subjects: <br>
+            <input type="checkbox" name="Maths" id="">Maths
+            <input type="checkbox" name="Physics" id="">Physics
+            <input type="checkbox" name="Chemistry" id="">Chemistry
+            <input type="checkbox" name="Biology" id="">Biology
+        </div>
+        <div class="items">Tutor Address : <br> <textarea name="address" id="" placeholder="Enter your full address"
+                cols="30" rows="5"></textarea></div>
+        <div class="items"> Email: <input type="email" placeholder="Enter Your Email"><br></div>
+        <div class="items">Phone: <input type="number" placeholder="Enter your number"><br></div>
+        <div class="items"> Write about yourself: <br><textarea name="myText" placeholder="Write about yourself"
+                cols="80" rows="10"></textarea></div>
+        <input
+            style="text-decoration: center;font-size: 15px;color: rgb(54 54 107);font-weight: bold; font-family: 'Oswald', sans-serif; "
+            type="submit" value="Submit">
+        <input
+            style="text-decoration: center;font-size: 15px;color: rgb(54 54 107);font-weight: bold; font-family: 'Oswald', sans-serif; "
+            type="reset" value="Reset">
+    </form>
+</body>
+<hr class="new2">
+
+</html>
