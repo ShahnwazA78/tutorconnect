@@ -1,0 +1,141 @@
+<style>
+<link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet">
+body {
+        font-family: 'Antic Slab', serif;
+        margin: 0%;
+        padding: 0%;
+    }
+    .logo{
+    width: 39px;
+       display: inline-block;
+       position: absolute;
+       left: 34px;
+       top: 0px;
+       
+    }
+    /* Red border */
+hr.new1 {
+    border-top: 1px solid red;
+  }
+  
+  /* Dashed red border */
+  hr.new2 {
+    border-top: 1.5px dashed rgb(54 54 107);;
+  }
+  
+  /* Dotted red border */
+  hr.new3 {
+    border-top: 1px dotted red;
+  }
+  
+  /* Thick red border */
+  hr.new4 {
+    border: 3px solid  rgb(54 54 107);
+  }
+  
+  /* Large rounded green border */
+  hr.new5 {
+    border: 10px solid green;
+    border-radius: 5px;
+  }
+  .logo img{
+    width: 90px;
+    margin: -2px;
+    margin-left: 200%;
+    padding: 0px;
+}
+
+    ul{ 
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 95px;
+        padding-inline-start: 18%;
+        background-color: rgb(54 54 107 / 40%);
+        border-radius: 32px;
+    }
+      ul li {
+        display: inline-block;
+        text-decoration: none;
+        margin: 12px;
+        padding: 1px;
+        
+     }
+    ul li a {
+        color: rgb(39 40 87);
+        font-size: 18px;
+        margin:2px;
+        padding: 9px;
+        text-decoration: none;
+        
+        position: sticky;
+        font-family: 'Oswald', sans-serif;
+     }
+     li a:hover{
+         color: rgb(148, 148, 233);
+         background-color: grey;
+         border-radius: 32px;
+     }
+
+    header::before {
+        background: url(careers-student-teacher.jpg)no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 180%;
+        z-index: -1;
+        opacity: 60%;
+    }
+    h3 {
+        font-size: 2.5em;
+        color: rgb(54 54 107);
+        margin-block-start: 1em;
+        margin-block-end: -.40em;
+        margin-inline-start: 530px;
+        margin-inline-end: 0px;
+        font-weight:bolder;
+        font-family: 'Oswald', sans-serif;
+    }
+    input{
+      border-radius: 8px;
+      font-family: 'Trispace', sans-serif;
+      margin: -3px;
+      box
+    }
+    button{
+        border-radius: 32px;
+        display: inline;
+        position: absolute;
+        top: 4%;
+        left: 76%;
+        margin: 0%;
+        padding: 0%;
+        background-color: rgb(54 54 107 );
+
+    }
+  .button a{
+        border: none;
+        color: white;
+        padding: 1px 3px;
+        border-radius: 23px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 19px;
+      }
+      p{
+        font-family: 'Trispace', sans-serif;
+        text-align: left;
+        color: #332222;
+    }
+   .subheading {
+    background-color: rgb(54 54 107 / 40%);
+    border-radius: 32px;
+    font-size: 2em;
+   text-align: center;
+    font-family: 'Trispace', sans-serif;
+    color: rgb(54 54 107);
+}
+    
+    </style>
